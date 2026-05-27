@@ -1,1 +1,1 @@
-
+ Nesta etapa foi realizada a implementação física do banco de dados do sistema de delivery de comida. Foram criadas as tabelas com suas respectivas chaves primárias, chaves estrangeiras e restrições de integridade. Também foram inseridos dados para testes e validação do funcionamento do banco.
