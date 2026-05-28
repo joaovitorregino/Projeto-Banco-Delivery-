@@ -1,0 +1,28 @@
+INSERT INTO Restaurante VALUES
+(1,'Pizzaria Itália','Pizza','Rua A, 100','62999990001'),
+(2,'Burger House','Hambúrguer','Rua B, 200','62999990002');
+
+INSERT INTO Produto VALUES
+(1,'Pizza Calabresa','Pizza grande',45.90,TRUE,1),
+(2,'Pizza Portuguesa','Pizza família',52.00,TRUE,1),
+(3,'X-Burger','Hambúrguer artesanal',25.00,TRUE,2);
+
+INSERT INTO Cliente VALUES
+(1,'João Silva','joao@gmail.com','62988881111','Rua C, 300'),
+(2,'Maria Souza','maria@gmail.com','62988882222','Rua D, 400');
+
+INSERT INTO Entregador VALUES
+(1,'Carlos Lima','62977771111','Moto','ABC1234'),
+(2,'Pedro Alves','62977772222','Moto','XYZ5678');
+
+INSERT INTO Pedido VALUES
+(1,'2026-05-26',45.90,'Entregue',1,1),
+(2,'2026-05-26',25.00,'Em andamento',2,2);
+
+INSERT INTO Item_Pedido VALUES
+(1,1,45.90,1,1),
+(2,1,25.00,2,3);
+
+INSERT INTO Pagamento VALUES
+(1,'Pix',45.90,'2026-05-26','Pago',1),
+(2,'Cartão',25.00,'2026-05-26','Pendente',2);
